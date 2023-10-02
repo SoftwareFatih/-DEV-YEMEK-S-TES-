@@ -1,0 +1,144 @@
+ /*MENÜ*/
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    padding: 20px 25px;
+}
+nav{
+    display: inline-block;
+    width: calc(100% - 103px);
+    text-align: right;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px 25px;
+}
+.logo{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 22px; 
+}
+nav ul li a:hover{
+    background-color:red;
+    color: black;
+ }
+ /*Menü Altındaki Resim Kısmı*/
+ #section-1{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(FAGORESTORANT.jpg);
+    background-position: center;
+    padding: 12px;
+    height: 850px;
+    width: 100%;
+    background-size: cover;
+ }
+ .btn-S1{
+    margin-left: 37%;
+    margin-top: 20%;
+    background-color: #E94560;
+    color: white;
+    padding: 25px 20px; 
+    font-size: 20px;
+    border-radius: 6px;
+    transition: color 1sn;
+
+ }
+ .btn-S1:hover{
+    color: black;
+ }
+ button{
+    color: white;
+    background-color: black;
+    border: none;
+    display: inline-block;
+    padding: 11px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 20px;
+ }
+ button:hover{
+    background-color: white;
+    color:red;
+
+ }
+ /*CARD*/
+ #section-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0px;
+ }
+ .card{
+    width: 20%;
+    box-shadow: 0 5px 9px 0 rgba(0,0,0,0.4);
+    border-radius: 6px;
+ }
+ .card:hover{
+    opacity: 0.7;  
+ }
+ .container{
+    padding: 5px 20px;
+ }
+ .container p{
+    margin: 15px 0px;
+ }
+ img{
+    border-radius: 6px 6px 0 0 ;
+    width: 100%;
+ }
+ p{
+    font-size: 19px;
+ }
+ #section-3{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0px;
+ }
+ #section-4{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0px;
+ }
+ #section-5{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0px;
+ }
+ #section-6{
+    display: flex;
+    justify-content: space-around;
+    margin: 200px 0px;
+ }
+ footer{
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0 ;
+ }
+ /*SHOPPİNG CARD*/
+
+ .shopping-card-list{
+    position: absolute;
+    width: 25rem;
+    right: -0.13rem;
+    top: 2.9rem;
+    padding: 1rem;
+    z-index: 1;
+ }
+ .shopping-card-list .list-item{
+    margin-top: 1rem;
+ }
